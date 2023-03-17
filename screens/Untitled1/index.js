@@ -1,3 +1,4 @@
+import { ImageBackground } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -9,7 +10,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.uBsDAyHA}>Lorem ipsum…</Text></ScrollView>
+    }}><Text style={styles.uBsDAyHA}>Lorem ipsum…</Text><ImageBackground style={styles.GRoxInZS} source={require("./Profile Pic with a super long name so long that.JPG")} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -25,6 +26,10 @@ const styles = StyleSheet.create({
     fontSize: 14,
     borderRadius: 0,
     color: "#a01919"
+  },
+  GRoxInZS: {
+    width: 213,
+    height: 192
   }
 });
 export default Untitled1;
