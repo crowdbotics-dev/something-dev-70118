@@ -15,14 +15,16 @@ const Untitled1 = () => {
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: "#ffffff"
   },
   uBsDAyHA: {
     width: 100,
     height: 50,
     lineHeight: 14,
     fontSize: 14,
-    borderRadius: 0
+    borderRadius: 0,
+    color: "#a01919"
   }
 });
 export default Untitled1;
