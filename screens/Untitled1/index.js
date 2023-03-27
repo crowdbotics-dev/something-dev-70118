@@ -10,7 +10,9 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.uBsDAyHA}>Lorem ipsum…</Text><ImageBackground style={styles.GRoxInZS} source={require("./Profile Pic with a super long name so long that.JPG")} resizeMode="cover"></ImageBackground></ScrollView>
+    }}><Text style={styles.uBsDAyHA}>Lorem ipsum…</Text><ImageBackground style={styles.GRoxInZS} source={require("./Robert-so-foraging.jpg")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.VwhxzoGA} source={{
+        uri: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
+      }} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -30,6 +32,10 @@ const styles = StyleSheet.create({
   GRoxInZS: {
     width: 213,
     height: 192
+  },
+  VwhxzoGA: {
+    width: 168,
+    height: 173
   }
 });
 export default Untitled1;
