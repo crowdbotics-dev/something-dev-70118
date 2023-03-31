@@ -11,7 +11,7 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }}><Text style={styles.uBsDAyHA}>Lorem ipsum…</Text><ImageBackground style={styles.GRoxInZS} source={require("./Robert-so-foraging.jpg")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.VwhxzoGA} source={{
-        uri: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
+        uri: "https://assets-global.website-files.com/5b6901669b93d7837e36dc4c/61e889d7af3f6652ba1bc5bb_Sales%20Deck%20Template.pptx.png"
       }} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     height: 192
   },
   VwhxzoGA: {
-    width: 168,
+    width: 263,
     height: 173
   }
 });
